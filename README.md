@@ -15,6 +15,8 @@ pip install scikit-learn`
 
 先运行perpare_data.py，生成训练集以及测试集（在data/courses目录下），再运行main.py文件
 
+已生成好的训练集和测试集可以从此下载：https://drive.google.com/drive/folders/1LzVuhAsXQyYek5zn4rEz9WLkjieSq_a1?usp=drive_link
+
 #  文件结构：
 
 [BarlowTwinsLoss.py](BarlowTwinsLoss.py)  对比学习模块
