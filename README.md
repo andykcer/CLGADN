@@ -1,17 +1,27 @@
 # 运行：
 
 环境配置（ Ubuntu 22.04、NVIDIA-SMI 550.67、Driver Version: 550.67、CUDA Version: 12.4）：
-`conda create -n CLGADN python=3.8
-conda activate CLGADN`
+`conda create -n CLGADN python=3.8`
+
+`conda activate CLGADN`
 
 安装库
 
-`pip install torch -i https://pypi.tuna.tsinghua.edu.cn/simple
-pip install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple
-pip install pandas -i https://mirrors.aliyun.com/pypi/simple
-pip install tqdm
-pip install matplotlib
-pip install scikit-learn`
+`pip install torch -i https://pypi.tuna.tsinghua.edu.cn/simple`
+
+`
+pip install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple`
+
+`
+pip install pandas -i https://mirrors.aliyun.com/pypi/simple`
+
+`
+pip install tqdm`
+
+`
+pip install matplotlib`
+
+`pip install scikit-learn`
 
 先运行perpare_data.py，生成训练集以及测试集（在data/courses目录下），再运行main.py文件
 
